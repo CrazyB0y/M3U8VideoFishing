@@ -1,0 +1,17 @@
+{
+	"extName": {
+		"message": "M3U8 playlist fishing"
+	}, 
+	"extDesc": {
+		"message": "Just take playlist for playing on some more comfortable video player"
+	}, 
+	"pageTitle": {
+		"message": "Direct link on the video"
+	}, 
+	"pageOpenVLC": {
+		"message": "Open from VLC"
+	}, 
+	"linkURL": {
+		"message": "Open direct link"
+	}
+}

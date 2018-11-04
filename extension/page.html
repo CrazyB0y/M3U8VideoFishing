@@ -1,0 +1,36 @@
+<html lang="ru-RU">
+<head>
+	<meta charset="utf-8">
+	<title></title>
+	<link rel="stylesheet" href="bootstrap.min.css">
+	<link rel="stylesheet" href="page.css">
+</head>
+<body class="text-center">
+	<div class="main">
+		<h1 id="pageTitle" class="h3 mb-3 font-weight-normal"></h1>
+		<div class="input-group mb-3">
+		  <input id="inputURL" type="text" class="form-control" aria-describedby="basic-addon2">
+		  <div class="input-group-append">
+			<button id="copyURL" class="btn btn-outline-secondary" type="button">
+				<svg viewBox="0 0 8 8" style="width: 16px; height: 16px;" class="icon">
+					<use xlink:href="#clipboard">
+						<path d="M3.5 0c-.28 0-.5.22-.5.5v.5h-.75c-.14 0-.25.11-.25.25v.75h3v-.75c0-.14-.11-.25-.25-.25h-.75v-.5c0-.28-.22-.5-.5-.5zm-3.25 1c-.14 0-.25.11-.25.25v6.5c0 .14.11.25.25.25h6.5c.14 0 .25-.11.25-.25v-6.5c0-.14-.11-.25-.25-.25h-.75v2h-5v-2h-.75z" id="clipboard"></path>
+					</use>
+				</svg>
+			</button>
+		  </div>
+		</div>
+		<a id="buttonURL" class="btn btn-lg btn-primary btn-block" type="submit">
+			<svg viewBox="0 0 8 8" style="width: 16px; height: 16px;" class="icon">
+				<use xlink:href="#media-play">
+					<path d="M1 1v6l6-3-6-3z" fill="#fff" id="media-play"></path>
+				</use>
+			</svg>
+			<span id="pageOpenVLC"></span>
+		</a>
+		</br>
+		<a href="" id="linkURL"></a>
+	</div>
+	<script src="page.js"></script>
+</body>
+</html>
